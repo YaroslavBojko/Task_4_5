@@ -18,4 +18,8 @@ int main()
 	{
 		cout << "Да, " << firstNumber << " делится на " << secondNumber << " без остатка!" << endl;
 	}
+	else
+	{
+		cout << "Нет, " << firstNumber << " не делится на " << secondNumber << " без остатка!" << endl;
+	}
 }
