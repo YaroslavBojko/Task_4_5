@@ -14,4 +14,8 @@ int main()
 	cin >> secondNumber;
 	cout << "-----Проверяем-----" << endl;
 
+	if (firstNumber % secondNumber == 0)
+	{
+		cout << "Да, " << firstNumber << " делится на " << secondNumber << " без остатка!" << endl;
+	}
 }
